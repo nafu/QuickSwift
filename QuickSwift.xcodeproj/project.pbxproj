@@ -13,6 +13,8 @@
 		13618C051A0E272400197627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13618C041A0E272400197627 /* Images.xcassets */; };
 		13618C081A0E272400197627 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13618C061A0E272400197627 /* LaunchScreen.xib */; };
 		13618C141A0E272400197627 /* QuickSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13618C131A0E272400197627 /* QuickSwiftTests.swift */; };
+		13618C3C1A0E291700197627 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13618C261A0E28AA00197627 /* Quick.framework */; };
+		13618C3F1A0E293500197627 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13618C351A0E28B500197627 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13618C3F1A0E293500197627 /* Nimble.framework in Frameworks */,
+				13618C3C1A0E291700197627 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Quick/Externals/Nimble/build/Debug-iphoneos",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -529,6 +534,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/Quick/Externals/Nimble/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = QuickSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
