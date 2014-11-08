@@ -15,6 +15,7 @@
 		13618C141A0E272400197627 /* QuickSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13618C131A0E272400197627 /* QuickSwiftTests.swift */; };
 		13618C3C1A0E291700197627 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13618C261A0E28AA00197627 /* Quick.framework */; };
 		13618C3F1A0E293500197627 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13618C351A0E28B500197627 /* Nimble.framework */; };
+		13618C411A0E2AC300197627 /* DolphinSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13618C401A0E2AC300197627 /* DolphinSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		13618C131A0E272400197627 /* QuickSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSwiftTests.swift; sourceTree = "<group>"; };
 		13618C1D1A0E28AA00197627 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		13618C2D1A0E28B500197627 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
+		13618C401A0E2AC300197627 /* DolphinSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolphinSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				13618C1D1A0E28AA00197627 /* Quick.xcodeproj */,
 				13618C131A0E272400197627 /* QuickSwiftTests.swift */,
 				13618C111A0E272400197627 /* Supporting Files */,
+				13618C401A0E2AC300197627 /* DolphinSpec.swift */,
 			);
 			path = QuickSwiftTests;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13618C141A0E272400197627 /* QuickSwiftTests.swift in Sources */,
+				13618C411A0E2AC300197627 /* DolphinSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
