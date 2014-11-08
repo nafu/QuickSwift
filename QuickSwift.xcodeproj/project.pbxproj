@@ -566,6 +566,7 @@
 				13618C191A0E272400197627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13618C1A1A0E272400197627 /* Build configuration list for PBXNativeTarget "QuickSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +575,7 @@
 				13618C1C1A0E272400197627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
