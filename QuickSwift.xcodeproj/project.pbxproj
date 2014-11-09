@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132240291A0F7EE4006CC7BC /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240251A0F7EE4006CC7BC /* HockeySDK.framework */; };
+		1322402A1A0F7EE4006CC7BC /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 132240271A0F7EE4006CC7BC /* HockeySDK.xcconfig */; };
+		1322402B1A0F7EE4006CC7BC /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 132240281A0F7EE4006CC7BC /* HockeySDKResources.bundle */; };
+		1322402D1A0F7F2F006CC7BC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322402C1A0F7F2F006CC7BC /* AssetsLibrary.framework */; };
+		1322402F1A0F7F36006CC7BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322402E1A0F7F36006CC7BC /* CoreGraphics.framework */; };
+		132240311A0F7F3C006CC7BC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240301A0F7F3C006CC7BC /* CoreText.framework */; };
+		132240331A0F7F43006CC7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240321A0F7F43006CC7BC /* Foundation.framework */; };
+		132240351A0F7F49006CC7BC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240341A0F7F49006CC7BC /* MobileCoreServices.framework */; };
+		132240371A0F7F4F006CC7BC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240361A0F7F4F006CC7BC /* QuartzCore.framework */; };
+		132240391A0F7F55006CC7BC /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132240381A0F7F55006CC7BC /* QuickLook.framework */; };
+		1322403B1A0F7F5B006CC7BC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322403A1A0F7F5B006CC7BC /* Security.framework */; };
+		1322403D1A0F7F62006CC7BC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322403C1A0F7F62006CC7BC /* SystemConfiguration.framework */; };
+		1322403F1A0F7F69006CC7BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1322403E1A0F7F69006CC7BC /* UIKit.framework */; };
 		13618BFE1A0E272400197627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13618BFD1A0E272400197627 /* AppDelegate.swift */; };
 		13618C001A0E272400197627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13618BFF1A0E272400197627 /* ViewController.swift */; };
 		13618C031A0E272400197627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13618C011A0E272400197627 /* Main.storyboard */; };
@@ -85,6 +98,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132240251A0F7EE4006CC7BC /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		132240271A0F7EE4006CC7BC /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		132240281A0F7EE4006CC7BC /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+		1322402C1A0F7F2F006CC7BC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1322402E1A0F7F36006CC7BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		132240301A0F7F3C006CC7BC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		132240321A0F7F43006CC7BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		132240341A0F7F49006CC7BC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		132240361A0F7F4F006CC7BC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		132240381A0F7F55006CC7BC /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		1322403A1A0F7F5B006CC7BC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1322403C1A0F7F62006CC7BC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1322403E1A0F7F69006CC7BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13618BF81A0E272400197627 /* QuickSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13618BFC1A0E272400197627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13618BFD1A0E272400197627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +131,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1322403F1A0F7F69006CC7BC /* UIKit.framework in Frameworks */,
+				1322403D1A0F7F62006CC7BC /* SystemConfiguration.framework in Frameworks */,
+				1322403B1A0F7F5B006CC7BC /* Security.framework in Frameworks */,
+				132240391A0F7F55006CC7BC /* QuickLook.framework in Frameworks */,
+				132240371A0F7F4F006CC7BC /* QuartzCore.framework in Frameworks */,
+				132240351A0F7F49006CC7BC /* MobileCoreServices.framework in Frameworks */,
+				132240331A0F7F43006CC7BC /* Foundation.framework in Frameworks */,
+				132240311A0F7F3C006CC7BC /* CoreText.framework in Frameworks */,
+				1322402F1A0F7F36006CC7BC /* CoreGraphics.framework in Frameworks */,
+				1322402D1A0F7F2F006CC7BC /* AssetsLibrary.framework in Frameworks */,
+				132240291A0F7EE4006CC7BC /* HockeySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +157,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132240241A0F7EE4006CC7BC /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				132240251A0F7EE4006CC7BC /* HockeySDK.framework */,
+				132240261A0F7EE4006CC7BC /* Resources */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "../Vendor/HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = "<group>";
+		};
+		132240261A0F7EE4006CC7BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				132240271A0F7EE4006CC7BC /* HockeySDK.xcconfig */,
+				132240281A0F7EE4006CC7BC /* HockeySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		132240401A0F7FE4006CC7BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1322403E1A0F7F69006CC7BC /* UIKit.framework */,
+				1322403C1A0F7F62006CC7BC /* SystemConfiguration.framework */,
+				1322403A1A0F7F5B006CC7BC /* Security.framework */,
+				132240381A0F7F55006CC7BC /* QuickLook.framework */,
+				132240361A0F7F4F006CC7BC /* QuartzCore.framework */,
+				132240341A0F7F49006CC7BC /* MobileCoreServices.framework */,
+				132240321A0F7F43006CC7BC /* Foundation.framework */,
+				132240301A0F7F3C006CC7BC /* CoreText.framework */,
+				1322402E1A0F7F36006CC7BC /* CoreGraphics.framework */,
+				1322402C1A0F7F2F006CC7BC /* AssetsLibrary.framework */,
+				132240241A0F7EE4006CC7BC /* HockeySDK.embeddedframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		13618BEF1A0E272400197627 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +221,7 @@
 				13618C041A0E272400197627 /* Images.xcassets */,
 				13618C061A0E272400197627 /* LaunchScreen.xib */,
 				13618BFB1A0E272400197627 /* Supporting Files */,
+				132240401A0F7FE4006CC7BC /* Frameworks */,
 			);
 			path = QuickSwift;
 			sourceTree = "<group>";
@@ -352,6 +427,8 @@
 			files = (
 				13618C031A0E272400197627 /* Main.storyboard in Resources */,
 				13618C081A0E272400197627 /* LaunchScreen.xib in Resources */,
+				1322402B1A0F7EE4006CC7BC /* HockeySDKResources.bundle in Resources */,
+				1322402A1A0F7EE4006CC7BC /* HockeySDK.xcconfig in Resources */,
 				13618C051A0E272400197627 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +573,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = QuickSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,6 +587,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = QuickSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
