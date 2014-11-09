@@ -1,4 +1,23 @@
 language: objective-c
 osx_image: xcode61
+before_script:
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/QuickSwift_AdHoc.mobileprovision.enc -d -a -out scripts/profile/QuickSwift_AdHoc.mobileprovision
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
+  - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
+  - ./scripts/add-key.sh
 script:
- - xcodebuild -project QuickSwift.xcodeproj -scheme QuickSwift -sdk iphonesimulator test
+  - xcodebuild -project QuickSwift.xcodeproj -scheme QuickSwift -sdk iphonesimulator test
+  - xcodebuild -project QuickSwift.xcodeproj -target QuickSwift -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+after_success:
+  - ./scripts/sign-and-build.sh
+after_script:
+  - ./scripts/remove-key.sh
+env:
+  global:
+    - secure: Eoyr1s0CuOvcAOpuKKJloqx89OxY3HbwQMAfqNWORp2QPnirVBa+l+hbNub8YjQTNYM6iMhywZkRXnGhhr2eey/N0L3NL3EuI6oxzTgb0IWeOMdItaYd36jlSIzg8jD7LcfXHg6CwY2zPCN9XKsZxK2mQS1mIbbTwKmFvrhLz+k=
+    - APP_NAME="QuickSwift"
+    - 'DEVELOPER_NAME="iPhone Distribution: FUMIYA NAKAMURA (8L27T5V5VA)"'
+    - PROFILE_NAME="QuickSwift_AdHoc"
+    - secure: l5k+q+/CPuyWMwD8g2US7tsSvJ2tdI+h44jNCqfNYGi+/XF2QFnJNgfk6/uW7rFL55pgIresOCfrO8tPfmM9IF5edPCKqKd+kWAiJ/PkYqW2In56oj+OMvchLC0FTEAIXwb8sE0s42iLb+Nl9cq+SfYJvoHIzKQFBScGCiFk8qA=
+    - secure: lYwYk0kH2jJXpQLsFyRrt/MsXUnKFjsbSOdPAYw+0tcDYh3i/C7v2A+J2vQEKB71HiTBQ818rBF7hKHseBbuSouwMqtFzgGhPPPuf4/SFzLDWwYbeY0YhINM5Ia3fo1suBk/D9XK7nO81yeuuJHmmLpcvV/bJpeilX3s8evME+M=
+    - secure: Oc5An4EFSqXO7hRC6/U1sUxuvgnv29ahcu1WONjPE/G1+a8xN4qGGnrrSWcHyMamXPrwZciTAOL7sxY3GfUdci3QpKXGxiyH2rENs6TJNJc7SoZtVdPD1DuH92Tp92gpPa3ebh3vzLvOnNt10XGii0psfcmKoNJ4hr6ojCHQY4Q=
